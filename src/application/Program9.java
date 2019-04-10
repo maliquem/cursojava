@@ -36,8 +36,11 @@ public class Program9 {
 				Double additionalCharge = sc.nextDouble();
 				list.add(new OutsourceEmployee(name, hours, valuePerHour, additionalCharge));
 			}
+			else {
 			list.add(new Employee(name, hours, valuePerHour));
+			}
 		}
+			
 		
 		System.out.println();
 		System.out.println("PAYMENTS:");
